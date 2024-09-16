@@ -4,12 +4,41 @@ public class Task02Main {
     public static void main(String[] args) {
         //здесь вы можете вручную протестировать ваше решение, вызывая реализуемый метод и смотря результат
         // например вот так:
-        /*
+
         System.out.println(getSeason(12));
-         */
+
     }
 
     static String getSeason(int monthNumber) {
-        return "";//todo напишите здесь свою корректную реализацию этого метода, вместо существующей
+
+        switch (monthNumber){
+            case (1):
+                return "зима";
+            case (2):
+                return "зима";
+            case (3):
+                return "весна";
+            case (4):
+                return "весна";
+            case (5):
+                return "весна";
+            case (6):
+                return "лето";
+            case (7):
+                return "лето";
+            case (8):
+                return "лето";
+            case (9):
+                return "осень";
+            case (10):
+                return "осень";
+            case (11):
+                return "осень";
+            case (12):
+                return "зима";
+
+
+        }
+        return "";
     }
 }
